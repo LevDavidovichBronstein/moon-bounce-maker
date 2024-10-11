@@ -6,6 +6,10 @@
 
 The generated 3D models are useful for visualization, prototyping, and design validation of antenna configurations. The script includes parameters that can be adjusted to control the physical characteristics of the parabolic dish, helix, and the overall array, making it highly configurable. The goal is to create an affordable and accessible solution for EME communication enthusiasts by leveraging 3D printing.
 
+## Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/UOhgnNf9V6E/0.jpg)](https://www.youtube.com/watch?v=UOhgnNf9V6E)
+
 ## Features
 
 - **Antenna Structure**: Each antenna consists of a parabolic dish reflector with a helical feed and an expanding transition helix. The structure allows for the modeling of high-gain antennas suitable for RF applications, including EME communication.
