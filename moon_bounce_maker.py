@@ -150,7 +150,30 @@ transition_interpolation='ease_out'
     
 
 def convert_frequency_to_hz():
+    """
+    Convert the operating frequency from megahertz (MHz) to hertz (Hz).
+
+    This function is used to convert the user-defined frequency, which is
+    specified in megahertz (MHz), into hertz (Hz) for use in 
+    calculations involving wavelength, speed of light, and other RF 
+    parameters that require frequency to be in hertz.
+
+    Returns:
+    - frequency_hz (float): The converted frequency in hertz (Hz).
+
+    Example:
+    --------
+    If the input frequency is 1300 MHz, this function will return:
+    1300 * 1e6 = 1,300,000,000 Hz or 1.3 GHz.
+
+    Notes:
+    ------
+    1 MHz is equal to 1,000,000 Hz (1e6 Hz). Converting frequency to Hz 
+    ensures compatibility with calculations that use the speed of light 
+    (in meters per second) and require frequency in Hz.
+    """
     return frequency_mhz * 1e6
+ 
 
 def calculate_stack_distance(lambda_factor):
     """
